@@ -1,0 +1,10 @@
+.calculator {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.calc-display {
+    grid-column: 2 / span 3;
+    border: 1px solid black;
+    text-align: right;
+}
