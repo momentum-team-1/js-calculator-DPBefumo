@@ -1,0 +1,28 @@
+.calculator-keys {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(5, 86, 207);
+    position: absolute;
+    width: 200px;
+    height: 250px;
+}
+
+.calc-display {
+    grid-column: 2 / span 3;
+    text-align: right;
+    display: flex;
+    flex wrap: wrap;
+}
+
+.calc-button {
+   
+}
+
+button {
+    background-color: rgb(5, 86, 207)
+}
+
+
+.sd-button {
+    background-color: rgb(76, 128, 196);
+}
